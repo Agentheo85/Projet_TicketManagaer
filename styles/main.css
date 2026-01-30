@@ -65,6 +65,11 @@ main section h2{
 
 }
 
+hr {
+        border: 1px solid rgba(128, 128, 128, 0.259);
+
+}
+
 .cards {
     margin-top: 2.5em;
     display: inline-flex;
@@ -85,6 +90,7 @@ main section h2{
 }
 
 footer {
+    margin: 0.5em 0em;
     display: flex;
      align-items: center;
     justify-content: center;
