@@ -1,10 +1,18 @@
-const SubmitBut = document.getElementsByTagName("form")[0]
+const SubmitBut = document.querySelector("form")
 
+const Topage = (arg) => {
+window.location.replace(`../pages/${arg}`);
+
+}
 function Prompted(event) {
-console.log(`Form Submitted! Timestamp: ${event.timeStamp}`)
-window.location.replace("../pages/purchased_sucessfull.html");
+    let formData = new FormData(SubmitBut);
 
-      event.preventDefault();
+console.log(`Form Submitted! Timestamp: ${event.timeStamp}`)
+console.log()    
+for(let [name, value] of formData.values()) {
+  alert(`${name} = ${value}`); // key1 = value1, ensuite key2 = value2
+}
+  event.preventDefault();
 }
 
 SubmitBut.addEventListener("submit", Prompted);
