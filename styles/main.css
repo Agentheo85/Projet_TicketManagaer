@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: .625em;
+    padding: 0.4em 0.8em;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.259);
+}
+
+
+header {
+
+margin: 10px auto;
+}
+#header nav{
+    width: 98vw;
+
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center; /* Centrer horizontalement ( de haut en bas )*/
+}
+
+.Demo {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+main section{
+    margin: 4em;
+
+    
+}
+
+main section h2{
+    margin-bottom: 0.5em;
+    
+    
+}
+
+#Presentation button{
+        margin-top: 1em;
+        padding: 0.6em 1em;
+
+}
+
+.cards {
+    margin-top: 2.5em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card {
+    border: 1px solid rgba(128, 128, 128, 0.259);
+    padding: 0.5em 1em;
+    width: 40lvw;
+    height: 15lvh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+
+footer div{ 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+    gap: 0px 10px;
+}
