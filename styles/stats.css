@@ -1,0 +1,56 @@
+input { 
+      border-radius: .625em;
+    padding: 0.4em 0.8em;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.259);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100lvh;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card {
+    border: 1px solid rgba(128, 128, 128, 0.259);
+    padding: 0.5em 1em;
+    width: 20lvw;
+    height: 15lvh;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.green {
+            background-color: rgba(30, 229, 129, 0.167);
+
+}
+
+.orange {
+            background-color: rgba(229, 202, 30, 0.167);
+
+}
+
+.card h2{
+  padding: 10px;
+}

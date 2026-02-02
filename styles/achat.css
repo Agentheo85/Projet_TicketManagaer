@@ -63,3 +63,14 @@ main section form{
       color: rgb(109, 109, 109);
 
 }
+
+#download {
+    padding-top: 10px;
+      color: rgb(109, 109, 109);
+      text-decoration:underline
+}
+
+#download:hover {
+    
+    color: blue;
+}
