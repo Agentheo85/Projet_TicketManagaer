@@ -7,9 +7,7 @@ for (const [key, value] of mySearchParams) {
     console.log(key,value)
 }
 
-const description = document.querySelector("#description")
-description.textContent = `Au nom de ${mySearchParams.get("last-name")} ${mySearchParams.get("first-name")}`
-const descriptionBirth = document.querySelector("#descriptionbirth")
+
 
 const convertDateToEuropean = (date) => {
     const dateArray = date.split('-')
@@ -20,4 +18,14 @@ const convertDateToEuropean = (date) => {
 
 }
 
-descriptionBirth.textContent = `Née le ${convertDateToEuropean(mySearchParams.get("birthday"))}`
+/**
+ * Function Init des qu'on est sur la page/charge .
+ */
+const initNotify = () => {
+    const description = document.querySelector("#description")
+    description.textContent = `Au nom de ${mySearchParams.get("last-name")} ${mySearchParams.get("first-name")}` // change le content de description et prend les params de l'url envoyer par le form
+    const descriptionBirth = document.querySelector("#descriptionbirth")
+    descriptionBirth.textContent = `Née le ${convertDateToEuropean(mySearchParams.get("birthday"))}` // la meme chose
+}
+
+initNotify()
