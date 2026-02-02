@@ -5,14 +5,17 @@ window.location.replace(`../pages/${arg}`);
 
 }
 function Prompted(event) {
-    let formData = new FormData(SubmitBut);
+  const dateValue = document.querySelector('#birthday').value
+  let DateArrar = dateValue.split("-");
+  if (DateArrar[0] >= 1950 && DateArrar[0] <= 2008){
+
+  }
+
 
 console.log(`Form Submitted! Timestamp: ${event.timeStamp}`)
-console.log()    
-for(let [name, value] of formData.values()) {
-  alert(`${name} = ${value}`); // key1 = value1, ensuite key2 = value2
-}
-  event.preventDefault();
+console.log(date.value)
+event.preventDefault();
+
 }
 
 SubmitBut.addEventListener("submit", Prompted);
