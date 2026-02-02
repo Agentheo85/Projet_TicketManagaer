@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: .625em;
+    padding: 0.4em 0.8em;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.259);
+}
+
+
+header {
+
+margin: 10px auto;
+}
+#header nav{
+    width: 98vw;
+
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center; /* Centrer horizontalement ( de haut en bas )*/
+}
+
+.Demo {
+    background-color: black;
+    color: white;
+}
+
+
+hr {
+        
+        border: 1px solid rgba(128, 128, 128, 0.259);
+
+}
+
+
+
+footer {
+    margin: 0.5em 0em;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+
+footer div{ 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+    gap: 0px 10px;
+}

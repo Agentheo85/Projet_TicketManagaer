@@ -1,0 +1,65 @@
+input { 
+      border-radius: .625em;
+    padding: 0.4em 0.8em;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.259);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100lvh;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main section h2{
+    margin-bottom: 1em;
+}
+
+main section form{
+    width: 30vw;
+    padding: 1em;
+        border: 1px solid rgba(128, 128, 128, 0.259);
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+ }
+
+
+.sucessfull {
+       width: fit-content;
+    padding: 1em;
+        border: 1px solid rgba(128, 128, 128, 0.259);
+        background-color: rgba(30, 229, 129, 0.167);
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 0.6em;
+}
+
+.sucessfull p{
+      color: rgb(109, 109, 109);
+}
+
+.error {
+       width: fit-content;
+       background-color: rgba(220, 32, 32, 0.167);
+    padding: 1em;
+        border: 1px solid rgba(128, 128, 128, 0.259);
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 0.6em;
+}
+
+.error p{
+      color: rgb(109, 109, 109);
+
+}
