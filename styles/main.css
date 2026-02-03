@@ -11,7 +11,7 @@ body {
     flex-direction: column;
 }
 
-button {
+.button {
     border-radius: .625em;
     padding: 0.4em 0.8em;
     background-color: white;

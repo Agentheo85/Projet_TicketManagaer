@@ -1,5 +1,8 @@
 {
     "Purchased_Tickets":165,
     "Max_Tickets":200,
-    "Ticket_Price":50
+    "Ticket_Price":50,
+    "Clients" : [
+        {"first-name":"Jean","last-name":"DuJardin","Created-at":"566787545368","TicketId":"A54DF6BG42FE5"}
+    ]
 }
