@@ -20,7 +20,7 @@ const Init = () => {
 }
 
 
-fetch("../Stats.json")
+fetch("http://localhost:3000/Stats")
     .then(data=>{
 
       return data.json()
