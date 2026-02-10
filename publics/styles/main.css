@@ -30,6 +30,12 @@ margin: 10px auto;
     justify-content: space-between;
     text-align: center;
     align-items: center; /* Centrer horizontalement ( de haut en bas )*/
+    ul {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
 .Demo {
@@ -65,3 +71,4 @@ footer div{
 a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */}
+

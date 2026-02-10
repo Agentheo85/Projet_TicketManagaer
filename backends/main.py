@@ -61,6 +61,8 @@ def newTicket():
     NewUser["id"] = str(uuid.uuid1()) # creer un Uuid pour l'id : XXXX-XXXX-XXXX-XXXX et set la valeur id de celui ci
     NewUser["TicketId"] = ticketId # set la valeur ticketid dans le dict de lui creer en haut 
     Data = getJsonDataIntoDir() # function qui renvoie le fichier json en Objet dict donc modifiable
+    if Data['Stats']["Purchased_Tickets"] >=  Data['Stats']["Max_Tickets"]:
+         return make_response(f"Cannot buy ticket anymore", 500)
     Data['Stats']["Purchased_Tickets"] += 1 # on ajoute plus un au nombre de ticket acheté
     Data["Clients"].append(NewUser) # on ajout le nouveau client 
     print(Data['Stats']["Purchased_Tickets"])

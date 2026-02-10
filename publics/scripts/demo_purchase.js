@@ -29,7 +29,9 @@ fetch("http://localhost:5000/api/newticket",{
   .then((json) => {   console.log('reussi')
         // ptite indication quand on commence apres ? c pour mettre les parameters ( query) et & pour ajouter d'autre query
         window.location.href = `../pages/purchased_sucessfull.html?last-name=${data["last-name"]}&first-name=${data["first-name"]}&birthday=${data["birthday"]}&id=${json.id}`;
-});
+}).catch(error => {
+                    Topage("purchase_error");
+                });
  
 console.log(dateValue)
 
