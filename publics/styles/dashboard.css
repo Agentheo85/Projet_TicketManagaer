@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+main {
+    padding: min(30px,7%);
+}
+
+main p {
+    color: blanchedalmond;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.container {
+    border: 1px solid grey;
+    border-radius: 1em;
+    margin-bottom: 20px;
+    padding: min(3em,15%);
+
+    h2,p { margin-top: 1em}
+}
+
+#sidebar {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 250px;
+    padding: 5px 1em;
+    background-color: brown;
+    border-right: 1px solid grey;
+}
