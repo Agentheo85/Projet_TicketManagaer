@@ -1,6 +1,6 @@
 const url = new URL(window.location.href) // on prend 
 const mySearchParams = new URLSearchParams(url.search); // celui ci va prendre les parametres que le form a envoyer sous type d'url ( ?param1=caca&param2=arg)
-
+const download = document.querySelector("#download")
 
 console.log(url.search)
 for (const [key, value] of mySearchParams) {
@@ -27,5 +27,11 @@ const initNotify = () => {
     const descriptionBirth = document.querySelector("#descriptionbirth")
     descriptionBirth.textContent = `Née le ${convertDateToEuropean(mySearchParams.get("birthday"))}` // la meme chose
 }
+
+download.addEventListener('click',(e)=>{
+    console.log('dddd')
+            window.location.href = `http://localhost:5000/api/downloadticket?ticketid=${mySearchParams.get("id")}`;
+
+})
 
 initNotify()
