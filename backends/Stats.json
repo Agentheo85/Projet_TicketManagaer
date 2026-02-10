@@ -1,33 +1,137 @@
 {
-  "Stats": {
-    "Purchased_Tickets": 165,
-    "Max_Tickets": 980,
-    "Ticket_Price": 50
-  },
-  "Clients": [
-    {
-      "id": "fa74",
-      "first-name": "cest polo",
-      "last-name": "salut",
-      "Created-at": 1770114684663,
-      "birthday": "2001-02-12",
-      "TicketId": "ddd"
+    "Stats": {
+        "Purchased_Tickets": 178,
+        "Max_Tickets": 980,
+        "Ticket_Price": 50
     },
-    {
-      "id": "cb5c",
-      "first-name": "cest polo",
-      "last-name": "salutddddd",
-      "Created-at": 1770114721597,
-      "birthday": "2001-02-12",
-      "TicketId": "ddd"
-    },
-    {
-      "id": "ed7b",
-      "first-name": "lolita",
-      "last-name": "dqsd qsdqsd sqd qsd",
-      "Created-at": 1770115648737,
-      "birthday": "1985-02-12",
-      "TicketId": "ddd"
-    }
-  ]
+    "Clients": [
+        {
+            "id": "fa74",
+            "first-name": "cest polo",
+            "last-name": "salut",
+            "Created-at": 1770114684663,
+            "birthday": "2001-02-12",
+            "TicketId": "ddd"
+        },
+        {
+            "id": "cb5c",
+            "first-name": "cest polo",
+            "last-name": "salutddddd",
+            "Created-at": 1770114721597,
+            "birthday": "2001-02-12",
+            "TicketId": "ddd"
+        },
+        {
+            "id": "ed7b",
+            "first-name": "lolita",
+            "last-name": "dqsd qsdqsd sqd qsd",
+            "Created-at": 1770115648737,
+            "birthday": "1985-02-12",
+            "TicketId": "ddd"
+        },
+        {
+            "first-name": "PYTHON",
+            "last-name": "teqt",
+            "Created-at": 1770730092753,
+            "birthday": "2000-02-12",
+            "TicketId": "566026",
+            "id": "593a296b-0684-11f1-822b-8056118e26c7"
+        },
+        {
+            "first-name": "PYTHON",
+            "last-name": "teqt",
+            "Created-at": 1770730111168,
+            "birthday": "2000-02-12",
+            "TicketId": "903322",
+            "id": "6433f02f-0684-11f1-80ed-8056118e26c7"
+        },
+        {
+            "first-name": "PYTHON",
+            "last-name": "teqt",
+            "Created-at": 1770730672674,
+            "birthday": "2000-02-12",
+            "TicketId": "541042",
+            "id": "b2e32065-0685-11f1-a61d-8056118e26c7"
+        },
+        {
+            "first-name": "dsfdsf",
+            "last-name": "dsfdsf",
+            "Created-at": 1770730766843,
+            "birthday": "2001-02-12",
+            "TicketId": "547952",
+            "id": "eb5ae487-0685-11f1-bc00-8056118e26c7"
+        },
+        {
+            "first-name": "eezrzer",
+            "last-name": "erezr",
+            "Created-at": 1770730806255,
+            "birthday": "2001-02-15",
+            "TicketId": "316985",
+            "id": "02afb0b5-0686-11f1-80f9-8056118e26c7"
+        },
+        {
+            "first-name": "sdfdsfds",
+            "last-name": "dsfdsf",
+            "Created-at": 1770730851152,
+            "birthday": "2001-02-22",
+            "TicketId": "932524",
+            "id": "1d9a1c6f-0686-11f1-a8a5-8056118e26c7"
+        },
+        {
+            "first-name": "sdfdsf",
+            "last-name": "fdsfsfds",
+            "Created-at": 1770730992284,
+            "birthday": "2001-02-22",
+            "TicketId": "45237",
+            "id": "71b6ed59-0686-11f1-a2db-8056118e26c7"
+        },
+        {
+            "first-name": "dfgfd",
+            "last-name": "drfgfdg",
+            "Created-at": 1770731037013,
+            "birthday": "2001-02-12",
+            "TicketId": "493813",
+            "id": "8c3a354b-0686-11f1-89ad-8056118e26c7"
+        },
+        {
+            "first-name": "dfgfd",
+            "last-name": "drfgfdg",
+            "Created-at": 1770731255444,
+            "birthday": "2001-02-12",
+            "TicketId": "856854",
+            "id": "0e945cfa-0687-11f1-b7f3-8056118e26c7"
+        },
+        {
+            "first-name": "fgdfgdfg",
+            "last-name": "dfgdfgfd",
+            "Created-at": 1770731265716,
+            "birthday": "2001-02-01",
+            "TicketId": "788297",
+            "id": "148c3ccd-0687-11f1-be45-8056118e26c7"
+        },
+        {
+            "first-name": "qsdqsd",
+            "last-name": "qsdsqd",
+            "Created-at": 1770731297451,
+            "birthday": "2001-02-12",
+            "TicketId": "896703",
+            "id": "279f6960-0687-11f1-ad59-8056118e26c7"
+        },
+        {
+            "first-name": "qsdqsd",
+            "last-name": "qsdqsdqsdqsdsq",
+            "Created-at": 1770731623545,
+            "birthday": "2001-02-12",
+            "TicketId": "890565",
+            "id": "e9fd0ce5-0687-11f1-a5fb-8056118e26c7"
+        },
+        {
+            "first-name": "qsdqsd",
+            "last-name": "qsdqsdqsdqsdsq",
+            "Created-at": 1770731721599,
+            "birthday": "2001-02-12",
+            "TicketId": "494023",
+            "id": "24464282-0688-11f1-b871-8056118e26c7"
+        }
+    ]
 }
