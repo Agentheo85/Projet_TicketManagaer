@@ -15,9 +15,25 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__
 
 # End of https://www.toptal.com/developers/gitignore/api/venv

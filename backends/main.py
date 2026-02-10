@@ -24,13 +24,14 @@ def hello_world():
 @app.route("/createTicket")
 def CreateTicket():
     title = str(random.randint(3, 9999))
-    newfile = open(title+".jpg", "x")
-    with open(title+".jpg", "wb") as f:
+    pathToImage = "./storages/"+title+".jpg"
+    newfile = open(pathToImage, "x")
+    with open(pathToImage, "wb") as f:
 
         barcode.codex.Code128(title,writer=ImageWriter()).write(f)
     try:
         filename = secure_filename(title+".jpg")  # Sanitize the filename
-        file_path = os.path.join("./", filename)
+        file_path = os.path.join("./storages", filename)
         if os.path.isfile(file_path):
             return send_file(file_path, as_attachment=True)
         else:
@@ -51,9 +52,8 @@ with open("otherfile.jpeg", "wb") as f:
     barcode.codex.Code128("WehhhW",writer=ImageWriter()).write(f)"""
 
 
-
-
-gray = cv2.cvtColor(cv2.imread("otherfile.jpeg"), cv2.COLOR_BGR2GRAY)
+# Pour lire les QR CODES , pas utiles 
+"""gray = cv2.cvtColor(cv2.imread("otherfile.jpeg"), cv2.COLOR_BGR2GRAY)
 
     # Detect barcodes in the grayscale image
 barcodes = decode(gray)
@@ -67,7 +67,7 @@ for barcodeVal in barcodes:
         # Print barcode data and type
     print("Barcode Data:", barcode_data)
     print("Barcode Type:", barcode_type)
-
+"""
   # start the py environement  .venv\Scripts\activate 
   # start the server flask --app main run
   # main is the file name 
