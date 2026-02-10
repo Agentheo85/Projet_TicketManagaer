@@ -1,8 +1,25 @@
 {
-    "Purchased_Tickets":165,
-    "Max_Tickets":200,
-    "Ticket_Price":50,
-    "Clients" : [
-        {"first-name":"Jean","last-name":"DuJardin","Created-at":"566787545368","TicketId":"A54DF6BG42FE5"}
-    ]
+  "Stats": {
+    "Purchased_Tickets": 165,
+    "Max_Tickets": 980,
+    "Ticket_Price": 50
+  },
+  "Clients": [
+    {
+      "id": "fa74",
+      "first-name": "cest polo",
+      "last-name": "salut",
+      "Created-at": 1770114684663,
+      "birthday": "2001-02-12",
+      "TicketId": "ddd"
+    },
+    {
+      "id": "cb5c",
+      "first-name": "cest polo",
+      "last-name": "salutddddd",
+      "Created-at": 1770114721597,
+      "birthday": "2001-02-12",
+      "TicketId": "ddd"
+    }
+  ]
 }
