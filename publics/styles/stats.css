@@ -19,7 +19,9 @@ main section {
     justify-content: center;
 }
 
-
+h2 {
+    margin-bottom: 10px;
+}
 
 .cards {
     display: inline-flex;
@@ -53,4 +55,11 @@ main section {
 
 .card h2{
   padding: 10px;
+}
+
+@media (max-width: 480px) {
+   .card {
+        width: 50lvw;
+
+   }
 }
