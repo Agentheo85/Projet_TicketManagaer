@@ -50,8 +50,15 @@ main section h2{
 
 #Presentation a{
 text-wrap: wrap;
-        width: 10lvw;
+        width: fit-content;
         margin-top: 1em;
-        padding: 0.6em .6em;
+        padding: 0.6em 2em;
 
+}
+
+@media (max-width: 480px) {
+   .card {
+        width: 70lvw;
+
+   }
 }

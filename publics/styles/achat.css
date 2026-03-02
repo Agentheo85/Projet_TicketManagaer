@@ -79,3 +79,10 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.03);
     
     color: blue;
 }
+
+@media (max-width: 480px) {
+ main section form {
+        width: 80vw;
+        
+ }
+}
