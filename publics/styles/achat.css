@@ -27,13 +27,18 @@ main section form{
     width: 30vw;
     padding: 1em;
         border: 1px solid rgba(128, 128, 128, 0.259);
-
+box-shadow: 0 10px 25px rgba(0,0,0,0.03);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 0.6em;
  }
 
+ .Continue {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
 
 .sucessfull {
        width: fit-content;
